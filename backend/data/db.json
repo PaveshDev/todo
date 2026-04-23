@@ -1,0 +1,24 @@
+{
+  "feedbacks": [
+    {
+      "_id": "3a07b1f54eef3891aad31226",
+      "patientName": "John Doe",
+      "doctorName": "Dr. Silva",
+      "consultationId": "CONS-2026-0001",
+      "rating": 5,
+      "comment": "Excellent ser",
+      "createdAt": "2026-02-24T15:35:10.568Z",
+      "updatedAt": "2026-02-24T15:36:09.932Z"
+    },
+    {
+      "_id": "96cbdea5fdff904f4fd6fb6f",
+      "patientName": "Pavesh",
+      "doctorName": "akilan",
+      "consultationId": "CONS-123",
+      "rating": 3,
+      "comment": "Excellent",
+      "createdAt": "2026-02-24T15:36:32.452Z",
+      "updatedAt": "2026-02-24T15:36:32.452Z"
+    }
+  ]
+}

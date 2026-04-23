@@ -1,0 +1,32 @@
+/* Feedback Form Styles - Dent AI Dashboard Theme */
+
+/* Optional: Add custom animations or utility styles here */
+
+/* Smooth transitions for form elements */
+input, textarea, button {
+  transition: all 0.3s ease;
+}
+
+/* Focus effects */
+input:focus-visible, textarea:focus-visible {
+  outline: none;
+}
+
+/* Custom scrollbar for improved UX */
+textarea::-webkit-scrollbar {
+  width: 6px;
+}
+
+textarea::-webkit-scrollbar-track {
+  background: #f5f5f5;
+  border-radius: 10px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 10px;
+}
+
+textarea::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

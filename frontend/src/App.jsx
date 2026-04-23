@@ -59,7 +59,7 @@ function AppLayout() {
           <Route path="/doctor/feedback" element={<ProtectedRoute element={<DoctorFeedbackView />} />} />
           <Route path="/summary" element={<ProtectedRoute element={<DoctorSummary />} />} />
 
-          <Route path="*" element={<Navigate to="/login" replace />} />
+          <Route path="*" element={<RoleBasedRedirect />} />
         </Routes>
       </main>
       <ToastContainer
